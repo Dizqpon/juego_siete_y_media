@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="panelPrincipal" fx:id="main" prefHeight="990.0" prefWidth="1280.0" stylesheets="@estiloCSS.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sieteymediaFXML.SieteYMediaFXMLController">
+    <children>
+        <Pane fx:id="panelJugador1" layoutX="10.0" layoutY="10.0" prefHeight="480.0" prefWidth="480.0" styleClass="panelJugador" stylesheets="@estiloCSS.css">
+            <children>
+                <TextField fx:id="cuadroTextoJugador1" layoutX="14.0" layoutY="60.0" prefHeight="410.0" prefWidth="270.0" styleClass="mesaCartas" stylesheets="@estiloCSS.css">
+               <font>
+                  <Font name="Verdana Bold Italic" size="21.0" />
+               </font></TextField>
+                <Button fx:id="btnPide1" layoutX="186.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionCarta" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Pide Carta" />
+                <Button fx:id="btnPlantar1" layoutX="359.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionPlantar" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Plantarse" />
+                <Label layoutX="25.0" layoutY="27.0" text="Jugador 1">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="imgJug1" fitHeight="300.0" fitWidth="180.0" layoutX="305.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart1Jug1" fitHeight="122.0" fitWidth="79.0" layoutX="30.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart2Jug1" fitHeight="122.0" fitWidth="79.0" layoutX="55.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart3Jug1" fitHeight="122.0" fitWidth="79.0" layoutX="80.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart4Jug1" fitHeight="122.0" fitWidth="79.0" layoutX="105.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart5Jug1" fitHeight="122.0" fitWidth="79.0" layoutX="130.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart6Jug1" fitHeight="122.0" fitWidth="79.0" layoutX="155.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart7Jug1" fitHeight="122.0" fitWidth="79.0" layoutX="180.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+        <Pane fx:id="panelJugador4" layoutX="500.0" layoutY="500.0" prefHeight="480.0" prefWidth="480.0" styleClass="panelJugador" stylesheets="@estiloCSS.css">
+            <children>
+                <TextField fx:id="cuadroTextoJugador4" layoutX="14.0" layoutY="60.0" prefHeight="410.0" prefWidth="270.0" styleClass="mesaCartas" stylesheets="@estiloCSS.css">
+               <font>
+                  <Font name="Verdana Bold Italic" size="21.0" />
+               </font></TextField>
+                <Button fx:id="btnPide4" layoutX="186.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionCarta" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Pide Carta" />
+                <Button fx:id="btnPlantar4" layoutX="359.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionPlantar" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Plantarse" />
+                <Label layoutX="25.0" layoutY="27.0" text="Jugador 4">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="imgJug4" fitHeight="300.0" fitWidth="180.0" layoutX="285.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart1Jug4" fitHeight="122.0" fitWidth="79.0" layoutX="35.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart2Jug4" fitHeight="122.0" fitWidth="79.0" layoutX="60.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart3Jug4" fitHeight="122.0" fitWidth="79.0" layoutX="85.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart4Jug4" fitHeight="122.0" fitWidth="79.0" layoutX="110.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart5Jug4" fitHeight="122.0" fitWidth="79.0" layoutX="135.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart6Jug4" fitHeight="122.0" fitWidth="79.0" layoutX="160.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart7Jug4" fitHeight="122.0" fitWidth="79.0" layoutX="185.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+        <Pane fx:id="panelJugador3" layoutX="10.0" layoutY="500.0" prefHeight="480.0" prefWidth="480.0" styleClass="panelJugador" stylesheets="@estiloCSS.css">
+            <children>
+                <TextField fx:id="cuadroTextoJugador3" layoutX="14.0" layoutY="60.0" prefHeight="410.0" prefWidth="270.0" styleClass="mesaCartas" stylesheets="@estiloCSS.css">
+               <font>
+                  <Font name="Verdana Bold Italic" size="21.0" />
+               </font></TextField>
+                <Button fx:id="btnPide3" layoutX="186.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionCarta" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Pide Carta" />
+                <Button fx:id="btnPlantar3" layoutX="359.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionPlantar" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Plantarse" />
+                <Label layoutX="27.0" layoutY="26.0" text="Jugador 3">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="imgJug3" fitHeight="300.0" fitWidth="180.0" layoutX="285.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart1Jug3" fitHeight="122.0" fitWidth="79.0" layoutX="35.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart2Jug3" fitHeight="122.0" fitWidth="79.0" layoutX="60.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart3Jug3" fitHeight="122.0" fitWidth="79.0" layoutX="85.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart4Jug3" fitHeight="122.0" fitWidth="79.0" layoutX="110.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart5Jug3" fitHeight="122.0" fitWidth="79.0" layoutX="135.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart6Jug3" fitHeight="122.0" fitWidth="79.0" layoutX="160.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart7Jug3" fitHeight="122.0" fitWidth="79.0" layoutX="185.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+        <Pane fx:id="panelJugador2" layoutX="500.0" layoutY="10.0" prefHeight="480.0" prefWidth="480.0" styleClass="panelJugador" stylesheets="@estiloCSS.css">
+            <children>
+                <TextField fx:id="cuadroTextoJugador2" layoutX="14.0" layoutY="60.0" prefHeight="410.0" prefWidth="270.0" styleClass="mesaCartas" stylesheets="@estiloCSS.css">
+               <font>
+                  <Font name="Verdana Bold Italic" size="21.0" />
+               </font></TextField>
+                <Button fx:id="btnPide2" layoutX="186.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionCarta" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Pide Carta" />
+                <Button fx:id="btnPlantar2" layoutX="359.0" layoutY="10.0" mnemonicParsing="false" onAction="#accionPlantar" styleClass="botonJugador" stylesheets="@estiloCSS.css" text="Plantarse" />
+                <Label layoutX="27.0" layoutY="28.0" text="Jugador 2">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="imgJug2" fitHeight="203.0" fitWidth="180.0" layoutX="305.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart1Jug2" fitHeight="122.0" fitWidth="79.0" layoutX="35.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart2Jug2" fitHeight="122.0" fitWidth="79.0" layoutX="60.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart3Jug2" fitHeight="122.0" fitWidth="79.0" layoutX="85.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart4Jug2" fitHeight="122.0" fitWidth="79.0" layoutX="110.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart5Jug2" fitHeight="122.0" fitWidth="79.0" layoutX="135.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart6Jug2" fitHeight="122.0" fitWidth="79.0" layoutX="160.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cart7Jug2" fitHeight="122.0" fitWidth="79.0" layoutX="185.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+        <Button id="botonComenzar" fx:id="comenzar" layoutX="996.0" layoutY="897.0" mnemonicParsing="false" onAction="#comenzarJuego" styleClass="botonControl" stylesheets="@estiloCSS.css" text="Comenzar / Reiniciar">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="salir" layoutX="1087.0" layoutY="823.0" mnemonicParsing="false" onAction="#salirJuego" styleClass="botonControl" stylesheets="@estiloCSS.css" text="Salir">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <RadioButton fx:id="check1" layoutX="1055.0" layoutY="25.0" mnemonicParsing="false" styleClass="check" stylesheets="@estiloCSS.css" text="1 JUGADOR">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="check2" layoutX="1055.0" layoutY="93.0" mnemonicParsing="false" styleClass="check" stylesheets="@estiloCSS.css" text="2 JUGADORES">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="check3" layoutX="1055.0" layoutY="161.0" mnemonicParsing="false" styleClass="check" stylesheets="@estiloCSS.css" text="3 JUGADORES">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="check4" layoutX="1055.0" layoutY="229.0" mnemonicParsing="false" styleClass="check" stylesheets="@estiloCSS.css" text="4 JUGADORES">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </RadioButton>
+        <ImageView fx:id="banner" fitHeight="540.0" fitWidth="250.0" layoutX="1007.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true" />
+        <TextField id="cajaTextoInfo" fx:id="cajaTexInfo" layoutX="985.0" layoutY="717.0" prefHeight="100.0" prefWidth="293.0" stylesheets="@estiloCSS.css" />
+         <ImageView fx:id="contenedorCabecera" fitHeight="300.0" fitWidth="970.0" layoutX="14.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>

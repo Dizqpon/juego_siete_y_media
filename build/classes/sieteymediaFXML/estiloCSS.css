@@ -1,0 +1,81 @@
+* {
+    -fx-font-family: "Verdana";
+}
+#panelPrincipal {
+    -fx-background-image: url("../imagenes/fondoPanelPrincipal.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: #4E6E81;
+}
+.panelJugador {
+    -fx-background-color: rgba(20,20,20,0.3);
+    -fx-background-radius: 30px;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.botonJugador {
+    -fx-background-color: #2E3840;
+    -fx-border-color: #D4ADFC;
+    -fx-border-width: 2;
+    -fx-text-fill: #D4ADFC;
+    -fx-font-size: 16px;
+    -fx-background-radius: 13 13 13 13;
+    -fx-border-radius: 10 10 10 10;
+}
+.botonJugador:hover {
+    -fx-background-color: #2E3840;
+    -fx-font-size: 14px;
+    -fx-border-width: 6;
+}
+.botonJugador:pressed {
+    -fx-background-color: #4E6E81;
+    -fx-text-fill: #2E3840;
+    -fx-font-weight: bold;
+}
+#cajaTextoInfo {
+    -fx-text-fill: red;
+    -fx-background-color: #4E6E81;
+    -fx-font-size: 20px;
+}
+.botonControl {
+    -fx-background-color: #2E3840;
+    -fx-border-color: #D4ADFC;
+    -fx-border-width: 2;
+    -fx-text-fill: #D4ADFC;
+    -fx-font-size: 22px;
+    -fx-background-radius: 13 13 13 13;
+    -fx-border-radius: 10 10 10 10;
+}
+.botonControl:hover {
+    -fx-background-color: #2E3840;
+    -fx-font-size: 20px;
+    -fx-border-width: 6;
+}
+.botonControl:pressed {
+    -fx-background-color: #4E6E81;
+    -fx-text-fill: #2E3840;
+    -fx-font-weight: bold;
+}
+.check {
+    -fx-background-color: #2E3840;
+    -fx-border-width: 2;
+    -fx-border-radius: 130px;
+    -fx-text-fill: #D4ADFC;
+    -fx-font-weight: bold;
+    -fx-background-radius: 140px;
+    -fx-padding: 7px;
+    -fx-border-color: #D4ADFC;
+    -fx-font-size: 20px;
+}
+.check:hover {
+    -fx-border-width: 6;
+    -fx-font-size: 18px;
+}
+.check:pressed {
+    -fx-border-width: 5;
+    -fx-font-size: 18px;
+}
+
+.mesaCartas {
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
